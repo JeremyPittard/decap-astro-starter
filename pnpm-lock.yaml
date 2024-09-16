@@ -52,8 +52,8 @@ importers:
         specifier: ^6.9.0
         version: 6.9.0(eslint@8.57.0)
       husky:
-        specifier: ^8.0.3
-        version: 8.0.3
+        specifier: ^9.1.6
+        version: 9.1.6
       lint-staged:
         specifier: ^15.2.0
         version: 15.2.0
@@ -1758,9 +1758,9 @@ packages:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
     engines: {node: '>=16.17.0'}
 
-  husky@8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
-    engines: {node: '>=14'}
+  husky@9.1.6:
+    resolution: {integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==}
+    engines: {node: '>=18'}
     hasBin: true
 
   ignore@5.2.4:
@@ -2849,6 +2849,7 @@ packages:
 
   shikiji@0.6.13:
     resolution: {integrity: sha512-4T7X39csvhT0p7GDnq9vysWddf2b6BeioiN3Ymhnt3xcy9tXmDcnsEFVxX18Z4YcQgEE/w48dLJ4pPPUcG9KkA==}
+    deprecated: Shikiji is merged back to Shiki v1.0, please migrate over to get the latest updates
 
   side-channel@1.0.4:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
@@ -5453,7 +5454,7 @@ snapshots:
 
   human-signals@5.0.0: {}
 
-  husky@8.0.3: {}
+  husky@9.1.6: {}
 
   ignore@5.2.4: {}
 
